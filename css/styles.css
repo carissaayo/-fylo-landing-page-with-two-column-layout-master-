@@ -17,16 +17,18 @@ body{
 header{
     display: flex;
     margin: 40px 0;
+    align-content: space-between;
 }
 header img{
     margin:0 5px;
+    float:left
 }
 header ul{
     display:inherit;
     list-style: none;
     text-align: right;
     margin:0;
-    /* width:200px */
+    float:right;
 }
 header ul li{
     margin:0 10px
