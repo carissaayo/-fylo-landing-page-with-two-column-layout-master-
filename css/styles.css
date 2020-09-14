@@ -1,3 +1,4 @@
+/* General Styles */
 html{
     box-sizing: border-box;
     overflow-x: hidden;
@@ -12,8 +13,10 @@ body{
     margin:0 10px;
     overflow-x: hidden;
     text-align: center;
-    font-size:16px
+    font-size:16px;
+    color:hsl(243, 87%, 12%)
 }
+/* Header Styles */
 header{
     display: flex;
     margin: 40px 0;
@@ -23,6 +26,7 @@ header img{
     margin:0 5px;
     float:left
 }
+/* Nav Styles */
 header ul{
     display:inherit;
     list-style: none;
@@ -33,6 +37,7 @@ header ul{
 header ul li{
     margin:0 10px
 }
+/* Illustration 1 Styles */
 #illust-1{
     margin:0 15px
 }
@@ -61,6 +66,25 @@ button{
     height:50px;
     border-radius: 5px;
     border:1px solid hsl(224, 93%, 58%);
-    /* font-weight: 700; */
-    font-size: 1.2em;
+    font-size: 1.2em; /* 19.2px */ 
+    margin-bottom: 90px;
+}
+
+/* Illustration 2 Styles */
+#illust-2 p{ 
+    text-align: left;
+    color:hsl(238, 22%, 44%);
+    font-size:1.1em;
+}
+#illust-2 p:last-of-type{
+    margin-bottom: 50px;
+}
+#arrow img{
+       margin:0 0 -5px 10px  ;
+
+}
+#arrow a{
+     border-bottom: 1px solid ;
+     padding-bottom:7px;
+     color: hsl(170, 45%, 43%)
 }
