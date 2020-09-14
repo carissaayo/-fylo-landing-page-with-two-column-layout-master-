@@ -71,6 +71,9 @@ button{
 }
 
 /* Illustration 2 Styles */
+#illust{
+    margin-bottom: 40px;
+}
 #illust-2 p{ 
     text-align: left;
     color:hsl(238, 22%, 44%);
@@ -87,4 +90,49 @@ button{
      border-bottom: 1px solid ;
      padding-bottom:7px;
      color: hsl(170, 45%, 43%)
+}
+/* Testimonial Styles */
+/* #testimonial{
+    position:relative;
+} */
+#testi-con{
+    position: relative;
+    margin: 90px 40px 100px 30px;
+    text-align: left;
+    font-size: 0.8em;
+    border:2px solid white;
+    background-color: white;
+    padding:40px 13px 20px 20px;
+    line-height: 1.6;
+}
+#quote-img{
+    position:absolute;
+    left:17px;
+    top:30px;
+}
+#quote-img img{
+    width:15px;
+    /*  */
+}
+#avatar-con{
+    display: flex;
+}
+#avatar-con img{
+    border-radius: 40px;
+    /* margin-right:10px */
+}
+#avatar-img-con{
+    width:50%
+}
+#avatar-text{
+    margin-left:-80px;
+    /* margin-top:1px */
+}
+#avatar-text h4{
+    margin:0;
+    font-weight: 700;
+}
+#avatar-text p{
+    margin:0;
+    font-size:0.8em
 }
