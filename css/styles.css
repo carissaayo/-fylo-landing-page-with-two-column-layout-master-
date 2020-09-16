@@ -155,6 +155,33 @@ button{
 }
 
 footer{
-    /* background-color: hsl(243, 87%, 12%) ;*/
-    
+    background-color: hsl(243, 87%, 12%) ;
+    color:white ;
+    text-align:left;
+    padding:20px 30px 40px 30px;
+    font-size:1.2em
+}
+footer ul{
+    list-style: none;
+    margin:10px -50px;
+}
+#contact{
+    display: grid;
+    grid-template:40px 1fr/50px 1fr;
+    grid-row-gap:5px
+}
+.contact-img{
+    padding: 20px 0;
+}
+#contact p{
+    padding: 4px 0 0 0
+}
+#about li, #terms li{
+    margin:10px
+}
+#about{
+    margin-top:20px
+}
+#about,#terms{
+    margin-bottom:50px
 }
