@@ -23,7 +23,8 @@ header,#illust,#illust2,#testimonial{
 header{
     display: flex;
     margin: 40px 0;
-    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap:wrap;
 }
 header img{
     margin:0 5px;
@@ -90,14 +91,12 @@ button{
 
 }
 #arrow a{
-     border-bottom: 1px solid white solid ;
+     border-bottom: 1px solid;
      padding-bottom:7px;
      color: hsl(170, 45%, 43%)
 }
 /* Testimonial Styles */
-/* #testimonial{
-    position:relative;
-} */
+
 #testi-con{
     position: relative;
     margin: 90px 40px 100px 30px;
@@ -118,9 +117,6 @@ button{
 }
 #avatar-con img{
     border-radius: 40px;
-}
-#avatar-img-con{
-    width:50%
 }
 #avatar-text{
     margin-left:-80px;
@@ -143,9 +139,7 @@ button{
     color:white;
     margin-bottom:50px
 }
-#signup h3{
-    /* font-weight: 400; */
-}
+
 #signup p{
     font-size:1.1em;
     line-height: 1.3;
@@ -153,6 +147,7 @@ button{
 #signup input,#signup button{
     width:80%
 }
+/* Footer Styles */
 
 footer{
     background-color: hsl(243, 87%, 12%) ;
@@ -185,3 +180,105 @@ footer ul{
 #about,#terms{
     margin-bottom:50px
 }
+@media screen and (min-width:1000px){
+    body{
+        font-size:1.2em
+    }
+#illust-2 p{
+    padding-left:20px
+
+}
+#illust-2 h3{
+    font-size: 1.6em;
+}
+
+}
+
+@media screen and (min-width:1440px){
+    header,#illust-1,#illust-2{
+        margin:30px 50px
+    }
+    .grid-con{
+        display: grid;
+        grid-template:1fr/1fr 1fr;
+        grid-template-areas: 'text picture';
+        margin-top:100px;
+        grid-column-gap:30px;
+        text-align:left
+    }
+    #illust-1 h1{
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+
+    #illust-1-text-con,
+    #illust-2-text-con {
+        grid-area:text,
+        
+    }
+    #illust-1>div:first-child,
+    #illust-2>div:first-child {
+        grid-area: picture; 
+         
+     }
+     #illust-1>div>img{
+         width:500px;
+         height:auto
+     }
+    #illust-1 form{
+         display: flex;
+         justify-content: space-between;
+     }
+     #illust-1-text-con>form>input {
+         width:55%
+     }
+     #illust-1-text-con>form>button {
+         width: 40%;
+         margin-top:20px
+
+     }
+     #illust-2-text-con {
+         font-size: 0.8em;
+     }
+     #illust-2-text {
+         margin:0;
+         padding:0
+     }
+     #illust-2>div:first-child>img{
+         width:600px;
+         height:500px
+     }
+     #signup{
+        padding:80px 20px 0 20px;
+        margin-bottom:0
+     }
+     #signup-text{
+         padding:0 50px;
+     }
+     #signup-text h1{
+         font-size:2em
+     }
+
+     #signup-form input {
+         width: 90%
+     }
+     #signup-form button{
+         width:40%;
+         
+     }
+     footer{
+         font-size:1em;
+         padding: 80px 60px;
+     }
+     footer >div:first-child{
+         width:60%;
+     }
+     #flex-con{
+         display:flex;
+         justify-content: space-between;
+         width:70%
+        }
+
+
+}
+
