@@ -132,12 +132,10 @@ button{
 /* Sign Up Styles */
 #signup{
     background-color: hsl(238, 22%, 44%);
-    /* margin:0 !important ; */
     width:100%;
     padding:40px 30px;
     height:400px;
-    color:white;
-    margin-bottom:50px
+    color:whit;
 }
 
 #signup p{
@@ -154,7 +152,8 @@ footer{
     color:white ;
     text-align:left;
     padding:20px 30px 40px 30px;
-    font-size:1.2em
+    font-size:1.2em;
+    margin-top:0
 }
 footer ul{
     list-style: none;
