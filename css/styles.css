@@ -10,11 +10,12 @@ html{
 body{
     font-weight: 400;
     background-color: hsl(240, 75%, 98%);
-    /* margin:0 10px; */
     overflow-x: hidden;
     text-align: center;
     font-size:16px;
-    color:hsl(243, 87%, 12%)
+    color:hsl(243, 87%, 12%);
+    font-family: 'Open Sans',
+    sans-serif;
 }
 header,#illust,#illust2,#testimonial{
     background-color: hsl(240, 75%, 98%);
@@ -25,6 +26,8 @@ header{
     margin: 40px 0;
     justify-content: space-between;
     flex-wrap:wrap;
+    font-family: 'Raleway',
+    sans-serif;
 }
 header img{
     margin:0 5px;
@@ -48,7 +51,9 @@ header ul li{
 #illust-1 h1{
     font-size:1.8rem /* 28px */;
     color:hsl(243, 87%, 12%);
-    font-family: 700;
+    font-weight: 700;
+    font-family: 'Raleway',
+    sans-serif;
 }
 #illust-1 p{
     font-size:1.1em;
@@ -124,6 +129,8 @@ button{
 #avatar-text h4{
     margin:0;
     font-weight: 700;
+    font-family: 'Raleway',
+    sans-serif;
 }
 #avatar-text p{
     margin:0;
@@ -135,7 +142,7 @@ button{
     width:100%;
     padding:40px 30px;
     height:400px;
-    color:whit;
+    color:white;
 }
 
 #signup p{
