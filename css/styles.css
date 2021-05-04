@@ -1,290 +1,287 @@
 /* General Styles */
-html{
-    box-sizing: border-box;
-    overflow-x: hidden;
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
-*,*::before,*::after{
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-body{
-    font-weight: 400;
-    background-color: hsl(240, 75%, 98%);
-    overflow-x: hidden;
-    text-align: center;
-    font-size:16px;
-    color:hsl(243, 87%, 12%);
-    font-family: 'Open Sans',
-    sans-serif;
+body {
+  font-weight: 400;
+  background-color: hsl(240, 75%, 98%);
+  overflow-x: hidden;
+  text-align: center;
+  font-size: 16px;
+  color: hsl(243, 87%, 12%);
+  font-family: "Open Sans", sans-serif;
+  margin: 0%;
 }
-header,#illust,#illust2,#testimonial{
-    background-color: hsl(240, 75%, 98%);
+header,
+#illust,
+#illust2,
+#testimonial {
+  background-color: hsl(240, 75%, 98%);
 }
 /* Header Styles */
-header{
-    display: flex;
-    margin: 40px 0;
-    justify-content: space-between;
-    flex-wrap:wrap;
-    font-family: 'Raleway',
-    sans-serif;
+header {
+  display: flex;
+  margin: 40px 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "Raleway", sans-serif;
 }
-header img{
-    margin:0 5px;
-    float:left
+header img {
+  margin: 0 5px;
+  float: left;
 }
 /* Nav Styles */
-header ul{
-    display:inherit;
-    list-style: none;
-    text-align: right;
-    margin:0;
-    float:right;
+header ul {
+  display: inherit;
+  list-style: none;
+  text-align: right;
+  margin: 0;
+  float: right;
 }
-header ul li{
-    margin:0 10px
+header ul li {
+  margin: 0 10px;
 }
 /* Illustration 1 Styles */
-#illust-1{
-    margin:0 15px
+#illust-1 {
+  margin: 0 15px;
 }
-#illust-1 h1{
-    font-size:1.8rem /* 28px */;
-    color:hsl(243, 87%, 12%);
-    font-weight: 700;
-    font-family: 'Raleway',
-    sans-serif;
+#illust-1 h1 {
+  font-size: 1.8rem /* 28px */;
+  color: hsl(243, 87%, 12%);
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
 }
-#illust-1 p{
-    font-size:1.1em;
-    color:hsl(243, 87%, 12%);
+#illust-1 p {
+  font-size: 1.1em;
+  color: hsl(243, 87%, 12%);
 }
 
-input[type='email']{
-    width:100%;
-    height:50px;
-    padding: 10px 20px;
-    margin:20px 0;
-    border-radius:5px;
-    border:1px solid white 
+input[type="email"] {
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid white;
 }
-button{
-    background-color:hsl(224, 93%, 58%);
-    color:white;
-    width:100%;
-    height:50px;
-    border-radius: 5px;
-    border:1px solid hsl(224, 93%, 58%);
-    font-size: 1.2em; /* 19.2px */ 
-    margin-bottom: 90px;
+button {
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid hsl(224, 93%, 58%);
+  font-size: 1.2em; /* 19.2px */
+  margin-bottom: 90px;
 }
 
 /* Illustration 2 Styles */
-#illust{
-    margin-bottom: 40px;
+#illust {
+  margin-bottom: 40px;
 }
-#illust-2 p{ 
-    text-align: left;
-    color:hsl(238, 22%, 44%);
-    font-size:1.1em;
+#illust-2 p {
+  text-align: left;
+  color: hsl(238, 22%, 44%);
+  font-size: 1.1em;
 }
-#illust-2 p:last-of-type{
-    margin-bottom: 50px;
+#illust-2 p:last-of-type {
+  margin-bottom: 50px;
 }
-#arrow img{
-       margin:0 0 -5px 10px  ;
-
+#arrow img {
+  margin: 0 0 -5px 10px;
 }
-#arrow a{
-     border-bottom: 1px solid;
-     padding-bottom:7px;
-     color: hsl(170, 45%, 43%)
+#arrow a {
+  border-bottom: 1px solid;
+  padding-bottom: 7px;
+  color: hsl(170, 45%, 43%);
 }
 /* Testimonial Styles */
 
-#testi-con{
-    position: relative;
-    margin: 90px 40px 100px 30px;
-    text-align: left;
-    font-size: 0.8em;
-    border:2px solid white;
-    background-color: white;
-    padding:40px 13px 20px 20px;
-    line-height: 1.6;
+#testi-con {
+  position: relative;
+  margin: 90px 40px 100px 30px;
+  text-align: left;
+  font-size: 0.8em;
+  border: 2px solid white;
+  background-color: white;
+  padding: 40px 13px 20px 20px;
+  line-height: 1.6;
 }
-#quote-img{
-    position:absolute;
-    left:17px;
-    top:30px;
+#quote-img {
+  position: absolute;
+  left: 17px;
+  top: 30px;
 }
-#avatar-con{
-    display: flex;
+#avatar-con {
+  display: flex;
 }
-#avatar-con img{
-    border-radius: 40px;
+#avatar-con img {
+  border-radius: 40px;
 }
-#avatar-text{
-    margin-left:-80px;
+#avatar-text {
+  margin-left: -80px;
 }
-#avatar-text h4{
-    margin:0;
-    font-weight: 700;
-    font-family: 'Raleway',
-    sans-serif;
+#avatar-text h4 {
+  margin: 0;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
 }
-#avatar-text p{
-    margin:0;
-    font-size:0.8em
+#avatar-text p {
+  margin: 0;
+  font-size: 0.8em;
 }
 /* Sign Up Styles */
-#signup{
-    background-color: hsl(238, 22%, 44%);
-    width:100%;
-    padding:40px 30px;
-    height:400px;
-    color:white;
+#signup {
+  background-color: hsl(238, 22%, 44%);
+  width: 100%;
+  padding: 40px 30px;
+  height: 400px;
+  color: white;
 }
 
-#signup p{
-    font-size:1.1em;
-    line-height: 1.3;
+#signup p {
+  font-size: 1.1em;
+  line-height: 1.3;
 }
-#signup input,#signup button{
-    width:80%
+#signup input,
+#signup button {
+  width: 80%;
 }
 /* Footer Styles */
 
-footer{
-    background-color: hsl(243, 87%, 12%) ;
-    color:white ;
-    text-align:left;
-    padding:20px 30px 40px 30px;
-    font-size:1.2em;
-    margin-top:0
+footer {
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+  text-align: left;
+  padding: 20px 30px 40px 30px;
+  font-size: 1.2em;
+  margin: 0;
 }
-footer ul{
-    list-style: none;
-    margin:10px -50px;
+footer ul {
+  list-style: none;
+  margin: 10px -50px;
 }
-#contact{
-    display: grid;
-    grid-template:40px 1fr/50px 1fr;
-    grid-row-gap:5px
+#contact {
+  display: grid;
+  grid-template: 40px 1fr/50px 1fr;
+  grid-row-gap: 5px;
 }
-.contact-img{
-    padding: 20px 0;
+.contact-img {
+  padding: 20px 0;
 }
-#contact p{
-    padding: 4px 0 0 0
+#contact p {
+  padding: 4px 0 0 0;
 }
-#about li, #terms li{
-    margin:10px
+#about li,
+#terms li {
+  margin: 10px;
 }
-#about{
-    margin-top:20px
+#about {
+  margin-top: 20px;
 }
-#about,#terms{
-    margin-bottom:50px
+#about,
+#terms {
+  margin-bottom: 50px;
 }
-@media screen and (min-width:1000px){
-    body{
-        font-size:1.2em
-    }
-#illust-2 p{
-    padding-left:20px
-
-}
-#illust-2 h3{
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 1.2em;
+  }
+  #illust-2 p {
+    padding-left: 20px;
+  }
+  #illust-2 h3 {
     font-size: 1.6em;
+  }
 }
 
+@media screen and (min-width: 1440px) {
+  header,
+  #illust-1,
+  #illust-2 {
+    margin: 30px 50px;
+  }
+  .grid-con {
+    display: grid;
+    grid-template: 1fr/1fr 1fr;
+    grid-template-areas: "text picture";
+    margin-top: 100px;
+    grid-column-gap: 30px;
+    text-align: left;
+  }
+  #illust-1 h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+
+  #illust-1-text-con,
+  #illust-2-text-con {
+    grid-area: text;
+  }
+  #illust-1 > div:first-child,
+  #illust-2 > div:first-child {
+    grid-area: picture;
+  }
+  #illust-1 > div > img {
+    width: 500px;
+    height: auto;
+  }
+  #illust-1 form {
+    display: flex;
+    justify-content: space-between;
+  }
+  #illust-1-text-con > form > input {
+    width: 55%;
+  }
+  #illust-1-text-con > form > button {
+    width: 40%;
+    margin-top: 20px;
+  }
+  #illust-2-text-con {
+    font-size: 0.8em;
+  }
+  #illust-2-text {
+    margin: 0;
+    padding: 0;
+  }
+  #illust-2 > div:first-child > img {
+    width: 600px;
+    height: 500px;
+  }
+  #signup {
+    padding: 80px 20px 0 20px;
+    margin-bottom: 0;
+  }
+  #signup-text {
+    padding: 0 50px;
+  }
+  #signup-text h1 {
+    font-size: 2em;
+  }
+
+  #signup-form input {
+    width: 90%;
+  }
+  #signup-form button {
+    width: 40%;
+  }
+  footer {
+    font-size: 1em;
+    padding: 80px 60px;
+  }
+  footer > div:first-child {
+    width: 60%;
+  }
+  #flex-con {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
 }
-
-@media screen and (min-width:1440px){
-    header,#illust-1,#illust-2{
-        margin:30px 50px
-    }
-    .grid-con{
-        display: grid;
-        grid-template:1fr/1fr 1fr;
-        grid-template-areas: 'text picture';
-        margin-top:100px;
-        grid-column-gap:30px;
-        text-align:left
-    }
-    #illust-1 h1{
-        font-size: 2.5em;
-        font-weight: 700;
-    }
-
-    #illust-1-text-con,
-    #illust-2-text-con {
-        grid-area:text,
-        
-    }
-    #illust-1>div:first-child,
-    #illust-2>div:first-child {
-        grid-area: picture; 
-         
-     }
-     #illust-1>div>img{
-         width:500px;
-         height:auto
-     }
-    #illust-1 form{
-         display: flex;
-         justify-content: space-between;
-     }
-     #illust-1-text-con>form>input {
-         width:55%
-     }
-     #illust-1-text-con>form>button {
-         width: 40%;
-         margin-top:20px
-
-     }
-     #illust-2-text-con {
-         font-size: 0.8em;
-     }
-     #illust-2-text {
-         margin:0;
-         padding:0
-     }
-     #illust-2>div:first-child>img{
-         width:600px;
-         height:500px
-     }
-     #signup{
-        padding:80px 20px 0 20px;
-        margin-bottom:0
-     }
-     #signup-text{
-         padding:0 50px;
-     }
-     #signup-text h1{
-         font-size:2em
-     }
-
-     #signup-form input {
-         width: 90%
-     }
-     #signup-form button{
-         width:40%;
-         
-     }
-     footer{
-         font-size:1em;
-         padding: 80px 60px;
-     }
-     footer >div:first-child{
-         width:60%;
-     }
-     #flex-con{
-         display:flex;
-         justify-content: space-between;
-         width:70%
-        }
-
-
-}
-
